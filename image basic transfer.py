@@ -1,0 +1,10 @@
+from PIL import Image
+img=Image.open("C:\\Users\\atul_\\Downloads\\1.jpg")
+image_resize=img.resize((400,400))
+image_rotate=img.rotate(90)
+image_flip=img.transpose(1)
+print(img.size)
+print(img.format)
+#image_resize.show()
+image_flip.show()
+#image_rotate.show()
