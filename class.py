@@ -3,5 +3,5 @@ ass student:
     def name(self):
         print (' Student name -> ',self.school)
         print('School name -> ')
-student1= student
+student1= student()
 student1.name()
