@@ -1,4 +1,4 @@
-ass student:
+class student:
     school='KV-2'
     def name(self):
        
